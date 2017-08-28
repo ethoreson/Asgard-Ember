@@ -7,6 +7,15 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('midgard');
+  this.route('alfheim');
+  this.route('svartalfheim');
+  this.route('niflheim');
+  this.route('muspelheim');
+  this.route('vanaheim');
+  this.route('jotunheim');
+  this.route('hel');
+  this.route('asgard');
 });
 
 export default Router;

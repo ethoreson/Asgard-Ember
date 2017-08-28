@@ -1,0 +1,21 @@
+<form id="godSubmit">
+  <div class="radio">
+    <label>
+      {{input type="radio" name="god" value="sif"}}
+      Sif: skips Vanaheim - pick this character if pop culture does not come easy to you
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      {{input type="radio" name="god" value="odin"}}
+        Odin: skips Muspelheim - pick this character if logic does not come easy to you
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      {{input type="radio" name="god" value="frigg"}}
+        Frigg: Goddess of fertility - pick this and get an extra life
+    </label>
+  </div>
+  <button {{action 'savePlayer'}}>Choose God</button>
+</form>

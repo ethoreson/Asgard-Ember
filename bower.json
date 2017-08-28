@@ -1,0 +1,1 @@
+{"name":"asgard-ember","description":"Small description for asgard-ember goes here","main":".eslintrc.js","authors":["Emilie Thoreson <thoresonemilie@gmail.com>"],"license":"MIT","homepage":"","ignore":["**/.*","node_modules","bower_components","test","tests"],"dependencies":{"jquery":"^3.2.1"}}

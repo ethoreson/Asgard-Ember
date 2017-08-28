@@ -5,18 +5,22 @@
   "license": "MIT",
   "author": "",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember test"
   },
   "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bower-files": "^4.0.0",
     "broccoli-asset-rev": "^2.4.5",
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
     "ember-ajax": "^3.0.0",
+    "ember-bootstrap": "^1.0.0-rc.2",
     "ember-cli": "~2.14.2",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.3.0",
@@ -35,10 +39,21 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.14.1",
     "ember-welcome-page": "^3.0.0",
-    "loader.js": "^4.2.3"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "loader.js": "^4.2.3",
+    "vinyl-source-stream": "^1.1.0"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
   },
-  "private": true
+  "private": true,
+  "main": ".eslintrc.js",
+  "dependencies": {}
 }

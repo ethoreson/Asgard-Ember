@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<link href="../styles/app.css" rel="stylesheet" type="text/css">
+<!-- <link href="../styles/alfheim.css" rel="stylesheet" type="text/css"> -->
+<div class="container">
+  <div class="header">
+  <h3>Lives: {{player.lives}} / Level: {{player.level}}</h3>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
 
-{{outlet}}
+</div>
