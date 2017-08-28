@@ -11,17 +11,24 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
       }
     },
 
-    APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
-    }
+      // EXTEND_PROTOTYPES: {
+      //   // Prevent Ember Data from overriding Date.parse.
+      //   Date: false
+      // },
+      firebase: {
+        apiKey: "AIzaSyA93sz_p_45ToQX4vb1pzBFPnqS2f3JOBY",
+        authDomain: "asgard-ember.firebaseapp.com",
+        databaseURL: "https://asgard-ember.firebaseio.com",
+        storageBucket: "asgard-ember.appspot.com"
+      },
+
+      APP: {
+        // Here you can pass flags/options to your application instance
+        // when it is created
+      }
   };
 
   if (environment === 'development') {

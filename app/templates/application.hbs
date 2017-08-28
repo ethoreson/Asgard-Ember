@@ -2,7 +2,11 @@
 <!-- <link href="../styles/alfheim.css" rel="stylesheet" type="text/css"> -->
 <div class="container">
   <div class="header">
-  <h3>Lives: {{player.lives}} / Level: {{player.level}}</h3>
+    <ul>
+      {{#each model as |player|}}
+        {{new-player player=player}}
+      {{/each}}
+    </ul>
   </div>
   <div class="body">
     {{outlet}}

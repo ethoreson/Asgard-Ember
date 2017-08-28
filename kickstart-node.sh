@@ -26,6 +26,7 @@ npm install del --save-dev
 npm install jshint --save-dev
 npm install gulp-jshint --save-dev
 npm install gulp-sass gulp-sourcemaps --save-dev
+ember install emberfire
 echo "______________________________________"
 echo "**** script complete ****"
 echo "______________________________________"

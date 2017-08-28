@@ -1,0 +1,17 @@
+{ "players": [{
+  "god": "Sif",
+  "lives": 3,
+  "level": 1,
+  "wonLevels": ["Alfheim"]
+}, {
+  "god": "Odin",
+  "lives": 3,
+  "level": 1,
+  "wonLevels": ["Vanaheim"]
+}, {
+  "god": "Frigg",
+  "lives": 4,
+  "level": 1,
+  "wonLevels": []
+}]
+}
